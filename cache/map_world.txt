@@ -1,0 +1,66 @@
+1
+Manchester
+53.464411442285126
+-2.2700963203125055
+53.497100860943874
+-2.215164679687482
+{'lat': 53.477217, 'lon': -2.24503, 'name': u'The Midland', 'icon': 'settlement'}
+{'lat': 53.483115, 'lon': -2.250559, 'name': u'The Lowry Hotel', 'icon': 'settlement'}
+{'lat': 53.47672499999999, 'lon': -2.256723999999999, 'name': u'Castlefield Hotel', 'icon': 'settlement'}
+{'lat': 53.475435, 'lon': -2.245923, 'name': u'The Bridgewater Hall', 'icon': 'ruins_urban'}
+{'lat': 53.4749746, 'lon': -2.240943, 'name': u'Palace Theatre', 'icon': 'ruins_town'}
+{'lat': 53.4769527, 'lon': -2.2544825, 'name': u'Museum of Science and Industry', 'icon': 'monument'}
+{'lat': 53.48339509999999, 'lon': -2.2411938, 'name': u'Manchester Arndale Shopping Centre', 'icon': 'monument'}
+{'lat': 53.4664621, 'lon': -2.234634100000001, 'name': u'The Manchester Museum', 'icon': 'monument'}
+{'lat': 53.4668498, 'lon': -2.2338837, 'name': u'The University of Manchester', 'icon': 'monument'}
+{'lat': 53.4728053, 'lon': -2.2467121, 'name': u'Home', 'icon': 'monument'}
+{'lat': 53.478791, 'lon': -2.251321, 'name': u'Opera House Manchester', 'icon': 'ruins_town'}
+{'lat': 53.4741297, 'lon': -2.2347669, 'name': u'Manchester Conference Centre', 'icon': 'ruins_town'}
+{'lat': 53.48242190000001, 'lon': -2.2360692, 'name': u'Afflecks', 'icon': 'ruins_urban'}
+{'lat': 53.482708, 'lon': -2.244644, 'name': u'Royal Exchange Theatre', 'icon': 'office'}
+{'lat': 53.48526219999999, 'lon': -2.240696, 'name': u'The Printworks', 'icon': 'ruins_town'}
+{'lat': 53.4684787, 'lon': -2.2366145, 'name': u'Royal Northern College of Music', 'icon': 'ruins_town'}
+{'lat': 53.4695414, 'lon': -2.235493, 'name': u'Manchester Aquatics Centre', 'icon': 'ruins_town'}
+{'lat': 53.463697, 'lon': -2.231457, 'name': u'Manchester Academy', 'icon': 'ruins_town'}
+{'lat': 53.4786541, 'lon': -2.2414114, 'name': u'Manchester Art Gallery', 'icon': 'monument'}
+{'lat': 53.4744008, 'lon': -2.2430474, 'name': u'O2 Ritz Manchester', 'icon': 'ruins_town'}
+{'lat': 53.4827082, 'lon': -2.235174599999999, 'name': u'Night & Day Cafe', 'icon': 'ruins_urban'}
+{'lat': 53.4828568, 'lon': -2.246927, 'name': u'The Moon Under Water', 'icon': 'settlement'}
+{'lat': 53.4836924, 'lon': -2.2338071, 'name': u'Castle Hotel', 'icon': 'ruins_urban'}
+{'lat': 53.484919, 'lon': -2.2259528, 'name': u'Sankeys', 'icon': 'cave'}
+{'lat': 53.4783369, 'lon': -2.2398565, 'name': u'Chinatown', 'icon': 'ruins_town'}
+{'lat': 53.4846783, 'lon': -2.2440229, 'name': u'The Old Wellington', 'icon': 'ruins_urban'}
+{'lat': 53.4783736, 'lon': -2.248978, 'name': u'Squares', 'icon': 'ruins_urban'}
+{'lat': 53.46456899999999, 'lon': -2.235589, 'name': u'The University of Manchester Library', 'icon': 'monument'}
+{'lat': 53.4759768, 'lon': -2.2274257, 'name': u'The Star and Garter', 'icon': 'ruins_urban'}
+{'lat': 53.4634267, 'lon': -2.226388899999999, 'name': u'Manchester Royal Infirmary', 'icon': 'monument'}
+{'lat': 53.4849228, 'lon': -2.2430911, 'name': u'Corn Exchange', 'icon': 'monument'}
+{'lat': 53.4780927, 'lon': -2.2446655, 'name': u'Manchester Library & Information Service', 'icon': 'monument'}
+{'lat': 53.49268619999999, 'lon': -2.2463768, 'name': u'H.M. Prison Manchester', 'icon': 'ruins_town'}
+{'lat': 53.47716500000001, 'lon': -2.2393477, 'name': u'Cruz 101', 'icon': 'cave'}
+{'lat': 53.485162, 'lon': -2.271867, 'name': u'Salford Museum and Art Gallery', 'icon': 'monument'}
+{'lat': 53.48032809999999, 'lon': -2.2365888, 'name': u'Manchester Piccadilly bus station', 'icon': 'metro'}
+{'lat': 53.463021, 'lon': -2.231941, 'name': u'Contact Theatre', 'icon': 'ruins_urban'}
+{'lat': 53.48517200000001, 'lon': -2.234258, 'name': u'Band on the Wall', 'icon': 'cave'}
+{'lat': 53.48582219999999, 'lon': -2.2421175, 'name': u'National Football Museum', 'icon': 'monument'}
+{'lat': 53.4838514, 'lon': -2.2361496, 'name': u'Richard Goodall Gallery', 'icon': 'monument'}
+{'lat': 53.4738382, 'lon': -2.251384599999999, 'name': u'Castlefield Gallery', 'icon': 'monument'}
+{'lat': 53.4728618, 'lon': -2.2397825, 'name': u'The Dancehouse', 'icon': 'ruins_town'}
+{'lat': 53.48144919999999, 'lon': -2.2528451, 'name': u"People's History Museum", 'icon': 'monument'}
+{'lat': 53.4753012, 'lon': -2.2297003, 'name': u'Macdonald Manchester Hotel & Spa', 'icon': 'settlement'}
+{'lat': 53.48018520000001, 'lon': -2.2464324, 'name': u"Saint Mary's the Hidden Gem", 'icon': 'monument'}
+{'lat': 53.47972059999999, 'lon': -2.240696, 'name': u'The Portico Library & Gallery', 'icon': 'monument'}
+{'lat': 53.49564729999999, 'lon': -2.2380416, 'name': u'Manchester Jewish Museum', 'icon': 'monument'}
+{'lat': 53.47331699999999, 'lon': -2.2403418, 'name': u'Holiday Inn Express', 'icon': 'settlement'}
+{'lat': 53.4811245, 'lon': -2.2347038, 'name': u'The Gardens Hotel', 'icon': 'settlement'}
+{'lat': 53.47704, 'lon': -2.2413599, 'name': u'Hotel Novotel', 'icon': 'settlement'}
+{'lat': 53.475453, 'lon': -2.250684, 'name': u'Hilton Manchester Deansgate', 'icon': 'cave'}
+{'lat': 53.4829482, 'lon': -2.2378276, 'name': u'The Light Aparthotel Manchester', 'icon': 'settlement'}
+{'lat': 53.47669879999999, 'lon': -2.2359753, 'name': u'Alan Turing Memorial', 'icon': 'ruins_town'}
+{'lat': 53.481654, 'lon': -2.245800999999999, 'name': u"St. Ann's Church", 'icon': 'monument'}
+{'lat': 53.4815662, 'lon': -2.2417097, 'name': u'Manchester Post Office', 'icon': 'office'}
+{'lat': 53.486258, 'lon': -2.243206, 'name': u"Chetham's School of Music", 'icon': 'ruins_town'}
+{'lat': 53.4773765, 'lon': -2.2407667, 'name': u'Hotel ibis Manchester Centre Portland Street', 'icon': 'settlement'}
+{'lat': 53.462541, 'lon': -2.253015999999999, 'name': u'Loreto College', 'icon': 'monument'}
+{'lat': 53.4774109, 'lon': -2.2397781, 'name': u'Townhouse Hotel Manchester', 'icon': 'ruins_urban'}
+{'lat': 53.478956, 'lon': -2.237284100000001, 'name': u'Britannia Hotel Manchester', 'icon': 'ruins_urban'}

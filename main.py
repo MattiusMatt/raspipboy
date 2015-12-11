@@ -6,6 +6,8 @@ import pygame, os, time, random, math, datetime
 from pygame.locals import *
 import config
 
+os.environ["SDL_FBDEV"] = "/dev/fb1"
+
 from pipboy_gps import *
 from pipboy_tab_stats import *
 from pipboy_tab_items import *
