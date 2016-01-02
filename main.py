@@ -7,6 +7,8 @@ from pygame.locals import *
 import config
 
 os.environ["SDL_FBDEV"] = "/dev/fb1"
+os.environ["SDL_MOUSEDEV"] = "/dev/input/touchscreen"
+os.environ["SDL_MOUSEDRV"] = "TSLIB"
 
 from pipboy_gps import *
 from pipboy_tab_stats import *
@@ -55,7 +57,7 @@ class Engine:
 		print 'Canvas Size: {0}x{1}'.format(self.canvasSize[0], self.canvasSize[1])
 		
 		# Don't show mouse-pointer:
-		pygame.mouse.set_visible(0)
+		pygame.mouse.set_visible(1)
 		pygame.display.set_mode(self.screenSize, pygame.FULLSCREEN)
 		
 		# Block queuing for unused events:
