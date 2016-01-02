@@ -6,6 +6,7 @@ import pygame, os, time, random, math, datetime
 from pygame.locals import *
 import config
 
+# set os environment variables for pi tft
 os.environ["SDL_FBDEV"] = "/dev/fb1"
 os.environ["SDL_MOUSEDEV"] = "/dev/input/touchscreen"
 os.environ["SDL_MOUSEDRV"] = "TSLIB"
@@ -20,8 +21,20 @@ from pipboy_cmdline import *
 if config.USE_SERIAL:
 	global serial
 	import serial
+
 if config.USE_CAMERA:
 	from pipboy_camera import *
+
+if config.USE_GPIO:
+	import RPi.GPIO as GPIO
+
+	GPIO.setmode(GPIO.BCM)
+
+	pin_button_1 = 27
+	pin_button_2 = 17
+	
+	GPIO.setup(pin_button_1, GPIO.IN, pull_up_down=GPIO.PUD_UP)
+	GPIO.setup(pin_button_2, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
 def getTimeStr():
 	curTime = time.localtime(time.time())
@@ -57,7 +70,7 @@ class Engine:
 		print 'Canvas Size: {0}x{1}'.format(self.canvasSize[0], self.canvasSize[1])
 		
 		# Don't show mouse-pointer:
-		pygame.mouse.set_visible(1)
+		pygame.mouse.set_visible(0)
 		pygame.display.set_mode(self.screenSize, pygame.FULLSCREEN)
 		
 		# Block queuing for unused events:
@@ -362,6 +375,9 @@ class Engine:
 
 	def run(self):
 		# Main Loop
+		button_1_state_prev = -1
+		button_2_state_prev = -1
+
 		running = True
 		while running:
 			
@@ -375,6 +391,25 @@ class Engine:
 			doUpdate = False
 			updateSound = None
 			
+			if (config.USE_GPIO):
+				button_1_state = GPIO.input(pin_button_1)
+				button_2_state = GPIO.input(pin_button_2)
+
+				if (button_1_state == False and button_1_state != button_1_state_prev):
+					self.modeNum = self.modeNum + 1
+
+					if (self.modeNum == 5):
+						self.modeNum = 0
+
+				if (button_2_state == False and button_2_state != button_2_state_prev):
+					self.tabNum = self.tabNum + 1
+
+					if (self.tabNum == 3):
+						self.tabNum = 0
+
+				button_1_state_prev = button_1_state
+				button_2_state_prev = button_2_state
+
 			if(config.USE_SERIAL):
 				# Run through serial-buffer characters, converting to pygame events if required:
 				ser = self.ser
@@ -519,6 +554,7 @@ class Engine:
 			self.ser.close()
 		
 		pygame.quit()
+		GPIO.cleanup()
 		
 if __name__ == '__main__': 
 	engine = Engine()
